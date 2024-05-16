@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <!------------- Favicon ------------->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!------------- CSS ------------->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/swiper.css">
+    <!------------- FontAwesome ------------->
+    <script src="https://kit.fontawesome.com/af23777511.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------------------- Header ---------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Architecture</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Projects</a></li>
+                    <li><a href="#" class="nav-link">News</a></li>
+                    <li><a href="#" class="nav-link">Store</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+
+                <!---------- Close Button ---------->
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-xmark"></i>
+                </div>
+            </div>
+
+            <!----------Toogle Menu Button ---------->
+            <div class="toogle-btn" id="toogle-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!---------------------- Main ---------------------->
+    <main class="main">
+        <!---------------------- Section - Home ---------------------->
+        <section class="home">
+            <div class="home-swiper swiper">
+                <div class="swiper-wrapper">
+                    <article class="home-article swiper-slide">
+                        <div class="home-data container">
+                            <h3 class="home-subtitle" data-swiper-parallax="500">Architecture</h3>
+                            <h1 class="home-title" data-swiper-parallax="400">Relaxing Steep <br> Lake House</h1>
+
+                            <a href="#" class="home-button" data-swiper-parallax="300">
+                                See Project <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                        <img src="images/home-1.jpg" alt="home-bg-image" class="home-img" data-swiper-parallax="-300">
+                        <div class="home-shadow"></div>
+                    </article>
+
+                    <article class="home-article swiper-slide">
+                        <div class="home-data container">
+                            <h3 class="home-subtitle" data-swiper-parallax="500">Architecture</h3>
+                            <h1 class="home-title" data-swiper-parallax="400">Luxury House <br> In The Forest</h1>
+
+                            <a href="#" class="home-button" data-swiper-parallax="300">
+                                See Project <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                        <img src="images/home-2.jpg" alt="home-bg-image" class="home-img" data-swiper-parallax="-300">
+                        <div class="home-shadow"></div>
+                    </article>
+
+                    <article class="home-article swiper-slide">
+                        <div class="home-data container">
+                            <h3 class="home-subtitle" data-swiper-parallax="500">Architecture</h3>
+                            <h1 class="home-title" data-swiper-parallax="400">Modern House <br> On The Rock</h1>
+
+                            <a href="#" class="home-button" data-swiper-parallax="300">
+                                See Project <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                        <img src="images/home-3.jpg" alt="home-bg-image" class="home-img" data-swiper-parallax="-300">
+                        <div class="home-shadow"></div>
+                    </article>
+
+                    <article class="home-article swiper-slide">
+                        <div class="home-data container">
+                            <h3 class="home-subtitle" data-swiper-parallax="500">Architecture</h3>
+                            <h1 class="home-title" data-swiper-parallax="400">Luxury <br> Curved House</h1>
+
+                            <a href="#" class="home-button" data-swiper-parallax="300">
+                                See Project <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                        <img src="images/home-4.jpg" alt="home-bg-image" class="home-img" data-swiper-parallax="-300">
+                        <div class="home-shadow"></div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="home-content">
+                <div class="home-social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home-social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home-social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home-social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Nav Buttons -->
+                <div class="swiper-navigation">
+                    <div class="swiper-button-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!---------------------- JS - Scripts ---------------------->
+    <script src="JS/swiper.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
